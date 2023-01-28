@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import { useRouter } from "next/Router";
+import { useRouter } from "next/router";
 import Navbar from "../components/Navbar";
 import { useEffect } from "react";
 import Link from "next/link";
