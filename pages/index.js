@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import { useRouter } from "next/Router";
+import { useRouter } from "next/router";
 import Navbar from "../components/Navbar";
 export default function Home() {
   const router = useRouter();
